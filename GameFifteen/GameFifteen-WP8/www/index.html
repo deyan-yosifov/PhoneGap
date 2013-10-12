@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link href="styles/main.css" rel="stylesheet" />
+
+        <script src="cordova.js"></script>
+        <script src="kendo/js/jquery.min.js"></script>
+        <script src="kendo/js/kendo.mobile.min.js"></script>
+
+        <script src="scripts/Game15.js"></script>
+        <script src="scripts/viewModels/gameUI.js"></script>
+        <script src="scripts/viewModels/settings.js"></script>
+        <script src="scripts/viewModels/scores.js"></script>
+        <script src="scripts/app.js"></script>
+
+    </head>
+    <body>
+        <!--Home-->
+        <div id="tabstrip-home" 
+             data-role="view"  
+             data-title="Home">
+
+            <div data-role="content" class="view-content">
+                <h1>Welcome!</h1>
+                <a id="skin-change" data-role="button" data-click="app.changeSkin">Flat</a>
+                <p>
+                    The 15-puzzle (Game of Fifteen, Mystic Square and many others)
+                     is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. 
+                </p>
+                <div id="logo"></div>
+            </div>
+        </div>
+
+        <!--Play-->
+        <div id="tabstrip-play" 
+             data-role="view"  
+             data-title="Game15"
+             data-model="app.gameService.viewModel"
+             data-stretch="false"
+            >
+
+            <div data-role="content" class="view-content">
+                <div id="game-container">
+                    <div>Difficulty:&nbsp;<span data-bind="text: difficulty"></span></div>
+                    <div data-bind="invisible: isGameOver">Moves:&nbsp;<span data-bind="text: moves"></span></div>
+                    <div class="message center10" data-bind="visible: isGameOver">Game over!</div>
+                    <div id="game-field" class="center10" data-bind="click: playMove"></div>
+                    <a class="center10" data-role="button" data-bind="click: newGameCommand"><span data-bind="text: scrambleButtonText"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Settings-->
+        <div id="tabstrip-settings" 
+             data-role="view"  
+             data-title="Settings"
+             data-model="app.settingsService.viewModel"
+            >
+
+            <div data-role="content" class="view-content">
+                <div id="settings-container">
+                    <div class="bordered">
+                        Difficulty:
+                        <br />
+                        <input type="text" data-bind="value: difficulty" style="text-align:center" />
+                    </div>
+
+                    <div class="bordered">
+                        Show numbers:
+                        <br />
+                        <input type="checkbox" data-bind="checked: showNumbers" />
+                        <div data-bind="visible: showNumbers">
+                            White colored numbers:
+                            <br />
+                            <input type="checkbox" data-bind="checked: areNumbersWhite" />
+                        </div>                        
+                    </div>
+                    <div class="bordered">
+                        Show borders:
+                        <br />
+                        <input type="checkbox" data-bind="checked: showBorders" />                      
+                    </div>
+                    <div class="bordered">
+                        Show picture:
+                        <br />
+                        <input type="checkbox" data-bind="checked: showPicture" />
+                        
+                        <div><a class="center10" data-role="button" data-bind="click: chooseImageFromGallery">Get from gallery</a></div>
+                        <div><a class="center10" data-role="button" data-bind="click: takeImageWithCamera">Take with camera</a></div>
+                    </div>
+                    <div class="bordered center10Top" id="settings-image"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Scores-->
+        <div id="tabstrip-scores" 
+             data-role="view"  
+             data-title="Top 20"
+             data-model="app.scoreService.viewModel"
+            >
+
+            <div data-role="content" class="view-content">
+                <div id="scores-container">
+                    <ul id="scores-list"
+                        data-role="listview" 
+                        data-bind="source: scoresArray" 
+                        data-template="score-template"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!--Score template-->
+        <script type="text/x-kendo-tmpl" id="score-template">
+            <div class="bordered">
+                Name: ${name}
+                <br />
+                Moves: ${moves}
+                <br />
+                Difficulty: ${difficulty}
+                <br />
+                Score: ${score}
+            </div>
+        </script>
+
+        <!--Layout-->
+        <div data-role="layout" data-id="tabstrip-layout" >
+
+            <!--Header-->
+            <div data-role="header">
+                <div data-role="navbar">
+                    <span data-role="view-title"></span>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div data-role="footer">
+                <div data-role="tabstrip">
+                    <a href="#tabstrip-home" data-icon="home">Home</a>
+                    <a href="#tabstrip-play" data-icon="play">Play</a>
+                    <a href="#tabstrip-settings" data-icon="settings">Settings</a>
+                    <a href="#tabstrip-scores" data-icon="contacts">Top scores</a>
+                </div>
+            </div>
+        </div>
+
+<!--        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>-->
+    </body>
+</html>
+        

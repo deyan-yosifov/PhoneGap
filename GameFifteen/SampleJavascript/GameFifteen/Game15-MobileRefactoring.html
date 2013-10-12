@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Game Fifteen</title>
+    <style>
+        body{background:lightgray;color:black;}
+        td{border:2px solid black;font-size:2em;width:50px;height:50px;color:white;background:gray;}
+        .empty{border:0;background:none;}
+        table{border:0;background:orange;margin:50px;}
+        button{background:orange;color:black;}
+        .inputs{padding-top:5px;}
+        .hidden{display:none;}
+        #winMsg{border:2px solid green;color:green;padding:5px;margin-bottom:10px;background:white;}
+    </style>
+</head>
+<body>
+    <script src="Game15.js"></script>
+    <script src="Game15UI.js"></script>
+    <script>
+        var gameUI=new Game15UI();
+    </script>
+
+    <div id="difficulty"></div>
+    <div id="moves"></div>
+    <div id="game15" onclick="gameUI.playMove(window.event.srcElement)">FATAL ERROR</div>
+    <div>
+        <div id="winMsg" class="hidden"></div>
+
+        <div>Input positive integer for game difficulty</div>
+
+        <div class="inputs">
+            <input type="text" id="inp" class="free"/>
+            <button  onclick="gameUI.startNewGame(gameUI.id('inp').value)" id="btn" class="btn">Start new game</button>
+        </div>
+    </div>
+
+    <script>
+        gameUI.drawUI("game15");
+    </script>
+</body>
+</html>
