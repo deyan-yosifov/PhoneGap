@@ -1,0 +1,4 @@
+The 15-puzzle (Game of Fifteen, Mystic Square and many others) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. You can solve the puzzle either by ordering the number from 1 to 15, or by ordering a picture.
+
+https://github.com/deyan-yosifov/PhoneGap/tree/master/GameFifteen
+https://dpy-nokia-javame.googlecode.com/svn/trunk/PhoneGap/
