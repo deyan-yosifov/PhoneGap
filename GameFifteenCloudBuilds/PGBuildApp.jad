@@ -1,0 +1,138 @@
+RIM-COD-SHA1-9: 24 63 f1 33 0c 16 07 b9 7a 01 53 ed 15 84 e8 8e 84 ae 5e 36
+RIM-COD-SHA1-8: 09 3b 41 99 48 c6 f6 68 37 86 d2 2a 15 96 f0 79 8a c7 a8 b3
+RIM-COD-Size-29: 50856
+RIM-COD-SHA1-7: c7 c9 ee 3e 88 77 1c 28 37 25 68 db 8d cb ae 54 ac 3d 77 1f
+RIM-COD-Size-28: 52416
+RIM-COD-SHA1-6: 8e 67 b7 d5 57 8a c0 38 ac cd 18 1b 36 77 ec cd 03 b6 b3 5b
+RIM-COD-Size-27: 50784
+RIM-COD-SHA1-5: a5 8c 6f 19 da c3 ae fb ec 6b b7 45 dd 95 2d 77 b7 0c 63 33
+RIM-COD-Size-26: 27836
+RIM-COD-SHA1-4: 75 9f a3 a5 22 04 95 a6 b4 03 2a 7d 2b 35 69 0a 05 78 a9 14
+RIM-COD-Size-25: 50772
+RIM-COD-SHA1-3: 54 ae fc 59 3c 31 ef 49 80 21 7d 7d d1 66 9c d8 81 51 a7 a4
+RIM-COD-Size-24: 50756
+RIM-COD-SHA1-2: 9c 9f db fb 80 be cb 41 58 5e 77 b0 0c fb 0d 29 96 81 ff 2b
+RIM-COD-Size-23: 53356
+RIM-COD-SHA1-1: d1 6e 4c 6c 63 e8 f0 75 a0 b9 86 2d a5 db 2e 6f ef 97 2e f3
+RIM-COD-Size-22: 50688
+RIM-COD-Size-21: 55724
+RIM-COD-Size-20: 50384
+RIM-COD-URL-19: PGBuildApp-19.cod
+RIM-COD-URL-18: PGBuildApp-18.cod
+RIM-COD-URL-17: PGBuildApp-17.cod
+RIM-COD-URL-16: PGBuildApp-16.cod
+RIM-COD-URL-15: PGBuildApp-15.cod
+RIM-COD-URL-14: PGBuildApp-14.cod
+RIM-COD-URL-13: PGBuildApp-13.cod
+RIM-COD-URL-12: PGBuildApp-12.cod
+RIM-COD-Size: 70076
+RIM-MIDlet-Icon-2-1: resources/icon_hover.png,focused
+RIM-COD-URL-11: PGBuildApp-11.cod
+RIM-MIDlet-Icon-Count-2: 1
+RIM-COD-URL-10: PGBuildApp-10.cod
+RIM-MIDlet-Icon-Count-1: 1
+MIDlet-Vendor: yosifov.deyan@gmail.com
+RIM-MIDlet-Icon-1-1: resources/icon_hover.png,focused
+Manifest-Version: 1.0
+RIM-COD-SHA1-39: 95 47 94 93 42 29 46 4c 23 87 ba ff 0e cb ac 51 21 16 6f 52
+RIM-MIDlet-Flags-1: 0
+RIM-COD-SHA1-38: 26 f5 db ae 8e 92 36 28 8d 24 91 11 3d d9 44 63 a1 57 1c a1
+RIM-COD-SHA1-37: 58 ed 22 82 14 09 18 2e 7d 00 5a 8b 18 5d e5 00 43 1e ab 58
+RIM-COD-Size-19: 50384
+RIM-COD-SHA1-36: 4a 47 e0 88 74 3e 74 e9 27 e7 a7 d0 59 dc 0e ad 42 7a b3 40
+RIM-COD-Size-18: 50384
+RIM-COD-SHA1-35: 86 57 9c e4 92 35 a8 ee ae 0e bb f9 39 ca 13 5c 32 21 03 00
+RIM-COD-Size-17: 50384
+RIM-COD-SHA1-34: 4a 08 41 0a e6 74 1f 71 55 25 9e 03 38 e0 b3 7c f7 5e 5b d3
+RIM-COD-Size-16: 50380
+RIM-COD-SHA1-33: 90 2d d6 0d ca 96 d0 32 47 96 36 62 b9 92 b1 7a d8 28 5a 0a
+RIM-COD-Size-15: 62172
+RIM-COD-SHA1-32: 60 1b 5a 62 89 39 a8 9a f5 6b e9 7f a7 9f 2a 9d 0d 6f 8b 46
+RIM-COD-Size-14: 50380
+RIM-COD-SHA1-31: 16 83 03 6d 72 2c 55 58 be da 46 9c 8b af 75 2c be 78 bf fb
+RIM-COD-Size-13: 55544
+RIM-COD-SHA1-30: 00 e2 6e b1 77 c1 ae 12 83 fc a9 59 c0 0d ea d5 43 d8 af ae
+RIM-COD-Size-12: 66004
+RIM-COD-Size-11: 64672
+RIM-COD-Size-10: 68108
+MIDlet-Version: 0.0.1
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-SHA1-29: 4b e2 17 55 b8 c3 11 6f bf 96 41 ad 56 56 c4 8e c3 a8 a9 a3
+RIM-COD-SHA1-28: de 4f a9 a8 0e 5a 01 9f fa 10 dd 3c 38 0b 28 21 d0 fa b7 23
+RIM-COD-SHA1-27: 82 62 b7 cd 2c 0b 10 ee 76 dc e6 26 42 1a a6 c9 e4 c5 f3 c9
+RIM-COD-SHA1-26: c7 ba 11 be ee 09 cf d7 0a cf a4 82 65 59 9b 16 1c 29 ea a3
+RIM-COD-SHA1-25: bc c0 b9 3a 12 72 b2 51 8d fa 8d 4b 5c e4 d2 80 e9 6b 77 dc
+RIM-COD-SHA1-24: d8 12 08 2b 14 a1 6c f1 93 11 f4 85 7e 40 ea 4b 5e 09 5b 98
+RIM-COD-SHA1-23: bd a6 dd 74 be ec 7c c8 d1 6e c2 8f 05 f0 84 0d cb d7 6b 55
+RIM-COD-SHA1-22: 80 f6 1a 06 f3 a5 67 d6 bb 1b ea 0d 32 e9 19 76 fe ae ae 27
+RIM-COD-SHA1-21: 76 fb 16 0a 91 27 d1 c7 be 7b 07 c2 72 3e 08 18 3e ac 01 e2
+RIM-COD-SHA1-20: 40 3c 7e a4 3d c5 8c 9a 0a a9 54 7d fe eb 64 78 2d 3a 16 4e
+RIM-COD-URL: PGBuildApp.cod
+RIM-COD-Creation-Time: 1381585029
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: PGBuildApp.jar
+RIM-COD-SHA1-19: 84 77 40 44 73 c6 8f 40 21 58 89 9d 40 4f e4 76 a5 78 30 22
+RIM-COD-SHA1-18: f9 93 e4 24 ae ef f2 ff 78 d3 65 0c c0 65 95 af ea 7f 86 07
+RIM-COD-SHA1-17: 71 59 c5 d4 1d 83 30 36 21 9b 0f 86 c8 d1 8d 95 a1 e4 28 b8
+RIM-COD-SHA1-16: 49 15 f9 6a 80 c3 8f dd 1a 42 58 14 26 ef 8a 22 50 d9 e5 4b
+RIM-COD-SHA1-15: 36 30 5e 33 fe 88 86 fb fe a1 94 22 78 52 04 d5 37 31 df 82
+RIM-COD-SHA1-14: 22 62 1f 8a e5 aa bd 93 16 be 7c 4f 9a cc 03 ab ab b7 b7 c4
+RIM-COD-SHA1-13: 56 34 5f c5 b0 84 71 b2 84 fa 9d 38 c8 d3 a9 b6 c4 69 1d bb
+RIM-COD-SHA1-12: ce 5d c0 45 8f ce fe 48 0b 40 5e 04 0d 22 9e 86 ab 5a b2 bc
+RIM-COD-Size-9: 67304
+RIM-COD-SHA1-11: e5 4a c3 f0 37 ad 76 f5 66 3d 50 eb 61 f6 44 73 fd 63 a8 f5
+RIM-COD-Size-8: 69172
+RIM-COD-SHA1-10: 08 2f 00 33 ca 38 23 8c 60 5a 18 9c 40 60 73 af 52 56 c6 c9
+RIM-COD-Size-7: 63544
+MIDlet-Description: The 15-puzzle (Game of Fifteen, Mystic Square and many others) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. You can solve the puzzle either by ordering the number from 1 to 15, or by ordering a picture.
+RIM-COD-Size-6: 56540
+RIM-COD-Size-5: 63224
+RIM-COD-Size-4: 64560
+RIM-COD-Size-3: 63504
+RIM-COD-Size-2: 72944
+RIM-COD-Size-1: 71172
+MIDlet-1: PG Build App,resources/icon.png,rim:foreground;WIDGET;
+MIDlet-Name: PG Build App
+RIM-COD-SHA1: eb 6a ab ad fd 73 26 77 38 b2 dc 98 b6 db 60 64 80 72 51 1f
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_pdap,net_rim_bb_web_jse_api,net_rim_xml_org,net_rim_bb_browser_field2_api,net_rim_os,net_rim_bbapi_phone,net_rim_bbapi_mailv2,net_rim_bbapi_invoke,net_rim_bbapi_browser,net_rim_bbapi_push,net_rim_bbapi_messagelist,net_rim_networkapi,net_rim_bb_browser_field_api,net_rim_xml,net_rim_locationapi
+MIDlet-Jar-Size: 2300529
+RIM-COD-URL-39: PGBuildApp-39.cod
+RIM-COD-URL-38: PGBuildApp-38.cod
+RIM-COD-URL-37: PGBuildApp-37.cod
+RIM-COD-URL-36: PGBuildApp-36.cod
+RIM-COD-URL-35: PGBuildApp-35.cod
+RIM-COD-URL-34: PGBuildApp-34.cod
+RIM-COD-URL-33: PGBuildApp-33.cod
+RIM-COD-URL-32: PGBuildApp-32.cod
+RIM-COD-URL-31: PGBuildApp-31.cod
+RIM-COD-URL-30: PGBuildApp-30.cod
+RIM-COD-URL-9: PGBuildApp-9.cod
+RIM-COD-URL-8: PGBuildApp-8.cod
+RIM-COD-URL-7: PGBuildApp-7.cod
+RIM-COD-URL-6: PGBuildApp-6.cod
+RIM-COD-URL-5: PGBuildApp-5.cod
+RIM-COD-Size-39: 63752
+RIM-COD-URL-4: PGBuildApp-4.cod
+RIM-COD-Size-38: 51948
+RIM-COD-URL-3: PGBuildApp-3.cod
+RIM-COD-Size-37: 50100
+RIM-COD-URL-2: PGBuildApp-2.cod
+RIM-COD-Size-36: 45752
+RIM-COD-URL-1: PGBuildApp-1.cod
+RIM-COD-Size-35: 48848
+RIM-COD-Size-34: 45652
+RIM-COD-Size-33: 50772
+RIM-COD-Size-32: 50856
+RIM-COD-Size-31: 50856
+RIM-COD-Size-30: 50856
+RIM-COD-URL-29: PGBuildApp-29.cod
+RIM-COD-URL-28: PGBuildApp-28.cod
+RIM-COD-URL-27: PGBuildApp-27.cod
+RIM-COD-URL-26: PGBuildApp-26.cod
+RIM-COD-Module-Name: PGBuildApp
+RIM-COD-URL-25: PGBuildApp-25.cod
+RIM-COD-URL-24: PGBuildApp-24.cod
+RIM-COD-URL-23: PGBuildApp-23.cod
+RIM-COD-URL-22: PGBuildApp-22.cod
+RIM-COD-URL-21: PGBuildApp-21.cod
+RIM-COD-URL-20: PGBuildApp-20.cod
